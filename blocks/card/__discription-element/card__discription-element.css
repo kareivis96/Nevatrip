@@ -1,0 +1,9 @@
+.card__discription-element {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+.card__discription-element {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,13 @@
+.card__price {
+  font-size: 36px;
+  line-height: 1;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .card__price {
+    font-size: 30px;
+    line-height: 1;
+    color: #000;
+  }
+}

@@ -1,0 +1,17 @@
+  .card__heading {
+    grid-area: heading;
+    margin: 16px 5px 0 0;
+    max-width: 550px;
+    font-size: 26px;
+    line-height: 131%;
+    color: #000;
+  }
+
+  @media (max-width: 768px) {
+    .card__heading {
+      margin: 15px 12px 0;
+      font-size: 14px;
+      line-height: 157%;
+      color: #404040;
+    }
+  }

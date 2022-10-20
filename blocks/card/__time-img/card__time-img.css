@@ -1,0 +1,6 @@
+.card__time-img {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+  object-position: center;
+}

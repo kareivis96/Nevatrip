@@ -1,0 +1,14 @@
+  .card__time-container {
+    grid-area: time;
+    justify-self: start;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 13px 0 0;
+  }
+
+  @media (max-width: 768px) {
+    .card__time-container {
+      margin: 16px 12px 0;
+    }
+  }
