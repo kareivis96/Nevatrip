@@ -31,3 +31,6 @@
 @import url('../blocks/card/__prise-row/card__prise-row.css');
 @import url('../blocks/card/__time-container/card__time-container.css');
 @import url('../blocks/card/__time-img/card__time-img.css');
+
+/* стили блока second-test */
+@import url('../blocks/second-test/second-test.css');
