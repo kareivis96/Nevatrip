@@ -148,9 +148,55 @@
   </section>
 
   <section class="second-test">
-    Горизонтальный скролл на странице появляется из-за фиксированной ширины блока с классом "blog". Если убрать свойство "width" со значением "990px" - горизонтальный скролл пропадет и все будет нормально сжиматься.
+    Горизонтальный скролл на странице появляется из-за фиксированной ширины блока с классом "blog". Если убрать свойство
+    "width" со значением "990px" - горизонтальный скролл пропадет и все будет нормально сжиматься.
   </section>
 
+  <section class="third-test">
+    Скриншоты таблиц баз данных в ТГ.
+  </section>
+
+  <section class="fourth-test">
+
+    <form class="fourth-test__form">
+      <h2 class="fourth-test__form-heading">Заполните поля и нажмите "Рассчитать".</h2>
+      <select name="direction" id="direction" required>
+        <option value="">Выберете направление</option>
+        <option value="из А в Б">Из А в Б</option>
+        <option value="из Б в А">Из Б в А</option>
+        <option value="Из А в Б и обратно в А">Из А в Б и обатно в А</option>
+      </select>
+      <select name="time" id="time" required>
+        <option value="">Выберете время</option>
+        <option value="18:00 1080 a-b">18:00 (из A в Б)</option>
+        <option value="18:30 1110 a-b">18:30 (из A в Б)</option>
+        <option value="18:45 1125 a-b">18:45 (из A в Б)</option>
+        <option value="19:00 1140 a-b">19:00 (из A в Б)</option>
+        <option value="19:15 1155 a-b">19:15 (из A в Б)</option>
+        <option value="21:00 1200 a-b">21:00 (из A в Б)</option>
+        <option value="18:30 b-a">18:30 (из Б в A)</option>
+        <option value="18:45 b-a">18:45 (из Б в A)</option>
+        <option value="19:00 b-a">19:00 (из Б в A)</option>
+        <option value="19:15 b-a">19:15 (из Б в A)</option>
+        <option value="19:35 b-a">19:35 (из Б в A)</option>
+        <option value="21:50 b-a">21:50 (из Б в A)</option>
+        <option value="21:55 b-a">21:55 (из Б в A)</option>
+      </select>
+      <select name="reverse-direction" id="reverse-direction" disabled>
+        <option value="">Выберете время обратного рейса</option>
+        <option value="19:00 1140">19:00 (из Б в A)</option>
+        <option value="19:15 1155">19:15 (из Б в A)</option>
+        <option value="19:35 1175">19:35 (из Б в A)</option>
+        <option value="21:50 1190">21:50 (из Б в A)</option>
+        <option value="21:55 1195">21:55 (из Б в A)</option>
+      </select>
+      <input type="number" id="number-of-tickets" required placeholder="Укажите кол-лво билетов">
+      <button type="submit">Рассчитать</button>
+    </form>
+
+  </section>
+
+  <script defer src="./blocks/fourth-test/fourth-test.js"></script>
 </body>
 
 </html>

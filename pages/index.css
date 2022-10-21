@@ -34,3 +34,8 @@
 
 /* стили блока second-test */
 @import url('../blocks/second-test/second-test.css');
+
+/* стили блока fourth-test */
+@import url('../blocks/fourth-test/fourth-test.css');
+@import url('../blocks/fourth-test/__form/fourth-test__form.css');
+@import url('../blocks/fourth-test/__form-heading/fourth-test__form-heading.css');
