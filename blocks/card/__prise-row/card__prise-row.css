@@ -1,0 +1,6 @@
+.card__prise-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}

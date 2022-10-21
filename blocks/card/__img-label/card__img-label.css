@@ -1,0 +1,18 @@
+.card__img-label {
+  position: absolute;
+  top: 12.4%;
+  left: 0;
+  box-sizing: border-box;
+  padding: 12px 34px 14px 35px;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+@media (max-width: 768px) {
+  .card__img-label {
+    top: 41px;
+    padding: 8px 23px 7px 17px;
+    font-size: 14px;
+    line-height: 143%;
+  }
+}

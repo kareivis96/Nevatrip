@@ -1,0 +1,27 @@
+.card__discription-time-button {
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  padding: 4px 16px;
+  background-color: #C5DCFF;
+  border-radius: 11px;
+  font-size: 16px;
+  line-height: 125%;
+  color: #343434;
+  box-shadow: none;
+  transition: background-color .3s ease, color .3s ease, box-shadow .3s ease;
+}
+
+.card__discription-time-button:hover {
+  background-color: #6BA6FF;
+  color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .card__discription-time-button {
+    padding: 2px 14px;
+    font-size: 14px;
+    line-height: 143%;
+  }
+}

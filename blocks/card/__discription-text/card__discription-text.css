@@ -1,0 +1,14 @@
+.card__discription-text {
+  font-size: 18px;
+  line-height: 111%;
+  color: #343434;
+}
+
+@media (max-width: 768px) {
+  .card__discription-text {
+    max-width: 210px;
+    font-size: 14px;
+    line-height: 143%;
+    color: #4B4B4B;
+  }
+}

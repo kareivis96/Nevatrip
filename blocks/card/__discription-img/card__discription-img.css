@@ -1,0 +1,13 @@
+.card__discription-img {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 14px 0 0;
+}
+
+@media (max-width: 768px) {
+  .card__discription-img {
+    margin: 0 20px 0 0;
+  }
+}

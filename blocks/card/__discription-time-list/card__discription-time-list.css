@@ -1,0 +1,12 @@
+.card__discription-time-list {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 0 0 0 9px;
+}
+
+@media (max-width: 768px) {
+  .card__discription-time-list {
+    margin: 7px 0 0 35px;
+  }
+}

@@ -1,0 +1,13 @@
+.card__alt-price {
+  font-size: 14px;
+  line-height: 143%;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .card__alt-price {
+    font-size: 10px;
+    line-height: 110%;
+    color: #000;
+  }
+}

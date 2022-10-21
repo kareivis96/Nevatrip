@@ -1,0 +1,16 @@
+  .card__price-container {
+    grid-area: price;
+    justify-self: start;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 25px 0;
+  }
+
+  @media (max-width: 768px) {
+    .card__price-container {
+      justify-content: space-between;
+      margin: 35px 19px 19px;
+      justify-self: stretch;
+    }
+  }

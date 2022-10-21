@@ -1,0 +1,41 @@
+/* обнуление стилей и подключение шрифтов */
+@import url('../vendor/reset.css');
+@import url('../vendor/fonts/fonts.css');
+
+/* базовые стили для страницы */
+@import url('../blocks/body/body.css');
+
+/* стили блока cards */
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/cards/__content/cards__content.css');
+
+/* стили блока card */
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__alt-price/card__alt-price.css');
+@import url('../blocks/card/__time-text/card__time-text.css');
+@import url('../blocks/card/__discription-container/card__discription-container.css');
+@import url('../blocks/card/__discription-element/card__discription-element.css');
+@import url('../blocks/card/__discription-img/card__discription-img.css');
+@import url('../blocks/card/__discription-text/card__discription-text.css');
+@import url('../blocks/card/__discription-time-button/card__discription-time-button.css');
+@import url('../blocks/card/__discription-time-list/card__discription-time-list.css');
+@import url('../blocks/card/__heading/card__heading.css');
+@import url('../blocks/card/__img-container/card__img-container.css');
+@import url('../blocks/card/__img-label/card__img-label.css');
+@import url('../blocks/card/__img-label/_color/card__img-label_color_blue.css');
+@import url('../blocks/card/__img-label/_color/card__img-label_color_yelow.css');
+@import url('../blocks/card/__img/card__img.css');
+@import url('../blocks/card/__price-button/card__price-button.css');
+@import url('../blocks/card/__price-container/card__price-container.css');
+@import url('../blocks/card/__price/card__price.css');
+@import url('../blocks/card/__prise-row/card__prise-row.css');
+@import url('../blocks/card/__time-container/card__time-container.css');
+@import url('../blocks/card/__time-img/card__time-img.css');
+
+/* стили блока second-test */
+@import url('../blocks/second-test/second-test.css');
+
+/* стили блока fourth-test */
+@import url('../blocks/fourth-test/fourth-test.css');
+@import url('../blocks/fourth-test/__form/fourth-test__form.css');
+@import url('../blocks/fourth-test/__form-heading/fourth-test__form-heading.css');

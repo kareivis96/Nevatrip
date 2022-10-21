@@ -1,0 +1,13 @@
+.cards__content {
+  margin: 0 auto;
+  max-width: 1106px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+@media (max-width: 768px) {
+.cards__content {
+    max-width: 500px;
+  }
+}
